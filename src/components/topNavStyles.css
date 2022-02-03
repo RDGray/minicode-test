@@ -1,0 +1,41 @@
+.nav {
+  min-height: 6.1875rem;
+  max-height: 6.1875rem;
+  width: 100vw;
+  border-bottom: 1px solid #e7e5e4;
+}
+.nav__hamburger {
+  cursor: pointer;
+}
+
+.nav__right-side {
+  padding-right: 0.9375rem;
+  padding-left: 1.875rem;
+}
+
+.right-side-container {
+  padding: 1.28125rem 0.9375rem;
+}
+.right-side-image {
+  display: flex;
+  align-self: center;
+  width: 2rem;
+  height: 2rem;
+  filter: invert(9%) sepia(95%) saturate(6240%) hue-rotate(339deg)
+    brightness(78%) contrast(96%);
+}
+
+.center-side {
+}
+
+.left-side {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+}
+
+.nav__logo {
+  padding-left: 2.375rem;
+  padding-right: 2.375rem;
+  width: 12.5rem;
+  height: 5.6875rem;
+}

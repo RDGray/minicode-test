@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --hue-color: 220;
+
+  --red-main-clr: #a40731;
+  --yellow-main-clr: #e8a412;
+  --blue-main-clr: #1d749a;
+  --black-main-clor: #1b1918;
+
+  --blue-clr-1000: #002359;
+  --blue-clr-900: #0f3c82;
+  --blue-clr-800: #285cab;
+  --blue-clr-700: #4b81d3;
+  --blue-clr-600: #78acfc;
+  --blue-clr-500: #91bcff;
+  --blue-clr-400: #a9cbff;
+  --blue-clr-300: #c1d9ff;
+  --blue-clr-200: #d9e8ff;
+  --blue-clr-100: #f1f7ff;
+
+  --yellow-clr-1000: #6e4b00;
+  --yellow-clr-900: #966700;
+  --yellow-clr-800: #bf8200;
+  --yellow-clr-700: #e8a412;
+  --yellow-clr-600: #ffba27;
+  --yellow-clr-500: #ffc74e;
+  --yellow-clr-400: #ffd375;
+  --yellow-clr-300: #ffdf9c;
+  --yellow-clr-200: #ffecc2;
+  --yellow-clr-100: #fff8e9;
+
+  --red-clr-1000: #520016;
+  --red-clr-900: #7b0021;
+  --red-clr-800: #a40731;
+  --red-clr-700: #cd1c4b;
+  --red-clr-600: #f6386b;
+  --red-clr-500: #ff5e89;
+  --red-clr-400: #ff81a3;
+  --red-clr-300: #ffa4bd;
+  --red-clr-200: #ffc8d6;
+  --red-clr-100: #ffebf0;
+
+  --white-clr: #ffffff;
+
+  --font-w-700: 700;
+  --font-w-400: 400;
+
+  --h1-size: 2.25rem; /* 36 px*/
+  --h2-size: 2rem; /* 32 px*/
+  --h3-size: 1.75rem; /* 28 px*/
+  --h4-size: 1.5rem; /* 24 px*/
+  --h5-size: 1.25rem; /* 20 px*/
+  --h6-size: 1.125rem; /* 18 px*/
+
+  --p-size: 1.125rem; /* 18 px*/
+}
+
+h1 {
+  font-size: var(--h1-size);
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+h3 {
+  font-size: var(--h3-size);
+}
+
+h4 {
+  font-size: var(--h4-size);
+}
+h5 {
+  font-size: var(--h5-size);
+}
+h6 {
+  font-size: var(--h6-size);
+}
+
+p {
+  font-size: var(--p-size);
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 82.5rem !important;
+}
