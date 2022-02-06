@@ -27,12 +27,17 @@
 }
 
 .content-center__left {
-  margin-top: 1.25rem;
   width: 50%;
+  margin-right: 0.9375rem;
 }
 .content-center__card {
   min-width: 11rem;
+  transition: all 0.2s ease-in-out;
 }
+.content-center__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .content-center__icon {
   margin-top: 0.9375rem;
   width: 3.125rem;
@@ -44,4 +49,9 @@
   font-size: 0.875rem;
   line-height: 1.3125rem;
   padding: 0.4375rem 1.25rem 0.6875rem;
+}
+
+.content-center__right {
+  width: 50%;
+  margin-left: 0.9375rem;
 }

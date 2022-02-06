@@ -26,6 +26,9 @@
 
 - Collapsible
   - When one is open, the other is closed
+    - defaultOpen
+    # Problem:
+    - when closing and opening the collapsible, the content is jumpy and streaching the main parent box
 
 # Optional
 
