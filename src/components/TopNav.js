@@ -9,12 +9,12 @@ import NavLines from "./NavLines";
 
 const TopNav = () => {
   return (
-    <nav class="flex items-center bg-black-500 nav">
+    <nav class="flex items-center nav">
       <div class="left-side flex items-center">
         {/* Menu */}
         <img className="nav__hamburger" src={menu} alt="" />
 
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6 nav__logo-container">
           {/* Logo */}
           <img className="nav__logo" src={logo} alt="" />
         </div>
@@ -29,12 +29,16 @@ const TopNav = () => {
       <div className="nav__right-side flex items-center">
         <div className="block flex">
           <div className="flex flex-col right-side-container">
-            <img className="right-side-image" src={user} alt="" />
-            <p className="text-sm">Logare</p>
+            <a href="#!" className="text-sm flex flex-col">
+              <img className="right-side-image" src={user} alt="" />
+              Logare
+            </a>
           </div>
           <div className="flex flex-col right-side-container">
-            <img className="right-side-image " src={filereg} alt="" />
-            <p className="text-sm">Înregistrare</p>
+            <a href="#!" className="text-sm flex flex-col">
+              <img className="right-side-image " src={filereg} alt="" />
+              Înregistrare
+            </a>
           </div>
         </div>
       </div>

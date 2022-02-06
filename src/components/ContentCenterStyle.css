@@ -1,0 +1,47 @@
+.content-center-wrapper {
+  max-width: 81.25rem !important;
+  margin-left: 6.25rem;
+  width: 100%;
+}
+.content-center__header {
+  padding: 1.875rem;
+
+  width: 100%;
+
+  background: linear-gradient(
+    85.58deg,
+    #a40731 -0.38%,
+    #830b3a 41.27%,
+    #002359 103.58%
+  );
+
+  box-shadow: 0px 5px 15px 2px rgba(27, 25, 24, 0.05);
+  border-radius: 7px;
+}
+
+.content-center__nav {
+}
+
+.content-center__body {
+  margin-top: 1.875rem;
+}
+
+.content-center__left {
+  margin-top: 1.25rem;
+  width: 50%;
+}
+.content-center__card {
+  min-width: 11rem;
+}
+.content-center__icon {
+  margin-top: 0.9375rem;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.content-center__text {
+  color: #1b1918;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  padding: 0.4375rem 1.25rem 0.6875rem;
+}

@@ -4,6 +4,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
 
+@font-face {
+  font-family: RootRegular;
+  src: url("/src/assets/font/pt_root_ui_regular-webfont.woff");
+}
+@font-face {
+  font-family: RootRegular;
+  src: url("/src/assets/font/pt_root_ui_regular-webfont.woff2");
+}
+
 :root {
   --hue-color: 220;
 
@@ -60,6 +69,37 @@
   --p-size: 1.125rem; /* 18 px*/
 }
 
+.red-clr-1000 {
+  color: var(--red-clr-1000);
+}
+.red-clr-900 {
+  color: var(--red-clr-900);
+}
+.red-clr-800 {
+  color: var(--red-clr-800);
+}
+.red-clr-700 {
+  color: var(--red-clr-700);
+}
+.red-clr-600 {
+  color: var(--red-clr-600);
+}
+.red-clr-500 {
+  color: var(--red-clr-500);
+}
+.red-clr-400 {
+  color: var(--red-clr-400);
+}
+.red-clr-300 {
+  color: var(--red-clr-300);
+}
+.red-clr-200 {
+  color: var(--red-clr-200);
+}
+.red-clr-100 {
+  color: var(--red-clr-100);
+}
+
 h1 {
   font-size: var(--h1-size);
 }
@@ -93,10 +133,16 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  height: 100vh;
+  background: #f9f9f9;
+  font-family: RootRegular;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -107,6 +153,7 @@ button {
   background-color: transparent;
 }
 
-.container {
-  max-width: 82.5rem !important;
+.active {
+  position: static;
+  opacity: 1;
 }

@@ -1,3 +1,48 @@
 .aside {
   min-width: 6.25rem;
+  max-width: 6.25rem;
+  border-right: 1px solid #e7e5e4;
+  height: calc(100% - 99px);
+}
+
+.aside__topnav {
+  display: flex;
+  justify-content: space-between;
+
+  height: calc(100% - 99px);
+}
+.aside__language {
+  padding-top: 2.1875rem;
+}
+.aside__botnav {
+  padding: 2.1875rem 0;
+}
+.aside__botnav::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #e7e5e4;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-2.3rem);
+}
+
+.contentLeft__icon {
+  filter: invert(9%) sepia(95%) saturate(6240%) hue-rotate(339deg)
+    brightness(78%) contrast(96%);
+}
+
+.line {
+  border-left: 1px solid #e7e5e4;
+  height: 100%;
+  cursor: default;
+}
+
+.line--vertical {
+  border: none;
+  border-left: 1px solid #e7e5e4;
+  height: 100%;
+  width: 1px;
+  margin-left: auto;
+  margin-right: auto;
 }

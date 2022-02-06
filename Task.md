@@ -15,6 +15,10 @@
   - While clicking on tabs - the below information is changed
   - The steps are changed in he nav bar
 
+  ## Add inner shadow on parent
+
+  ## take out the gradient when clicked on a new tab
+
 - Side navbar
 
   - While Inainte clicked the step on the sidebar is changed and saved to local storage

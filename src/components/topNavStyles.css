@@ -3,6 +3,7 @@
   max-height: 6.1875rem;
   width: 100vw;
   border-bottom: 1px solid #e7e5e4;
+  background-color: #ffffff;
 }
 .nav__hamburger {
   cursor: pointer;
@@ -19,6 +20,7 @@
 .right-side-image {
   display: flex;
   align-self: center;
+
   width: 2rem;
   height: 2rem;
   filter: invert(9%) sepia(95%) saturate(6240%) hue-rotate(339deg)
@@ -38,4 +40,30 @@
   padding-right: 2.375rem;
   width: 12.5rem;
   height: 5.6875rem;
+}
+
+@media screen and (max-width: 1076px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__center-side {
+    position: absolute;
+    left: -1000;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .nav__right-side {
+    position: absolute;
+    left: -1000;
+    opacity: 0;
+  }
+  .nav__logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
 }
