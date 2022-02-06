@@ -27,7 +27,6 @@
 }
 
 .content-center__left {
-  width: 50%;
   margin-right: 0.9375rem;
 }
 .content-center__card {
@@ -52,6 +51,5 @@
 }
 
 .content-center__right {
-  width: 50%;
   margin-left: 0.9375rem;
 }

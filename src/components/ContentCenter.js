@@ -41,7 +41,7 @@ export function ContentCenter() {
         <div className="content-center__body">
           <h4 className="font-extrabold">Alege tipul autovehiculului</h4>
 
-          <div className="flex  mt-10">
+          <div className="flex grid grid-cols-2 mt-10">
             {/* Cards */}
             <div className="content-center__left">
               <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
