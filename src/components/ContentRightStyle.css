@@ -1,64 +1,54 @@
 .aside__right {
-  min-width: 6.25rem;
-  max-width: 6.25rem;
   border-left: 1px solid #e7e5e4;
   height: calc(100% - 99px);
+  max-width: 6.25rem;
+  min-width: 6.25rem;
   top: 99px;
 }
-
 .line--vertical {
   border: none;
   border-left: 1px solid #e7e5e4;
+}
+.line--vertical,
+.line--vertical-green {
   height: 100%;
-  width: 1px;
   margin-left: auto;
   margin-right: auto;
+  width: 1px;
 }
-
 .line--vertical-green {
   border: none;
   border-left: 1px solid #00834b;
-  height: 100%;
-  width: 1px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .contentRight__icon {
-  width: 2.1875rem;
   height: 2.1875rem;
+  width: 2.1875rem;
 }
-
 .aside__right--top {
   margin-top: 2.1875rem;
 }
 .aside__right--bottom {
   margin-bottom: 2.1875rem;
 }
-
 @media only screen and (max-width: 766px) {
   .aside__right {
-    min-width: 5.625rem;
     max-width: 5.625rem;
+    min-width: 5.625rem;
   }
 }
-
 @media only screen and (max-width: 530px) {
   .aside__right {
-    min-width: 4.625rem;
     max-width: 4.625rem;
+    min-width: 4.625rem;
   }
 }
-
 @media only screen and (max-width: 375px) {
   .aside__right {
-    min-width: 3.925rem;
     max-width: 3.925rem;
+    min-width: 3.925rem;
   }
-}
-
-@media only screen and (max-width: 375px) {
   .contentRight__icon {
-    width: 1.1875rem;
     height: 1.1875rem;
+    width: 1.1875rem;
   }
 }

@@ -1,79 +1,61 @@
 .accordion {
   width: 100%;
 }
-
 .accordion__wrapper {
   max-width: 39.1833125rem;
 }
-.accordion__header {
-  /* border-bottom: 1px solid #a40731; */
-}
-
 .accordion__header--text {
   line-height: 1.6875rem;
   padding: 0.6988rem 1.25rem;
 }
-
 .accordion__icon {
-  width: 1.125rem;
-  height: 1.125rem;
-  margin: 1rem;
-
+  color: #520418;
+  -webkit-filter: invert(11%) sepia(19%) saturate(6594%) hue-rotate(319deg)
+    brightness(96%) contrast(112%);
   filter: invert(11%) sepia(19%) saturate(6594%) hue-rotate(319deg)
     brightness(96%) contrast(112%);
-  color: #520418;
+  height: 1.125rem;
+  margin: 1rem;
+  width: 1.125rem;
 }
-
 .accordion__content {
   border-radius: 0 0 0.4375rem 0.4375rem;
 }
-
 .accordion__text-area {
-  min-height: 18.375rem;
-  max-height: 18.375rem;
-
   line-height: 1.3125rem;
-
-  overflow-y: scroll;
+  max-height: 18.375rem;
+  min-height: 18.375rem;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 .accordion__text-area p {
-  margin-bottom: 1.5rem;
+  color: #42403f;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
-  color: #42403f;
+  margin-bottom: 1.5rem;
 }
-
-/* scroll bar */
-
 .scroller {
-  width: calc(100% - 0.875rem);
   height: 0.3125rem;
   overflow-y: auto;
-  scrollbar-color: rgba(66, 64, 63, 0.3) rgba(231, 229, 228, 0.3);
+  scrollbar-color: rgba(66, 64, 63, 0.3) hsla(20, 6%, 90%, 0.3);
   scrollbar-width: thin;
+  width: calc(100% - 0.875rem);
 }
-
 .scroller::-webkit-scrollbar {
   width: 0.3125rem;
 }
-
 .scroller::-webkit-scrollbar-thumb {
   background: rgba(66, 64, 63, 0.3);
   border-radius: 0.3125rem;
   height: 3.75rem;
 }
-
 .scroller::-webkit-scrollbar-track {
-  margin: 1.25rem 0;
-  background-color: rgba(231, 229, 228, 0.3);
-
+  background-color: hsla(20, 6%, 90%, 0.3);
   border-radius: 0.3125rem;
+  margin: 1.25rem 0;
 }
-/* scroll bar End */
-
 .border-radius-open {
-  border-radius: 0.4375rem 0.4375rem 0 0;
   border-bottom: 1px solid rgba(164, 7, 49, 0.2);
+  border-radius: 0.4375rem 0.4375rem 0 0;
 }
