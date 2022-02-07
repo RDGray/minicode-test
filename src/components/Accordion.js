@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Disclosure, Transition } from "@headlessui/react";
 import close from "../assets/icons/close.svg";
 import plus from "../assets/icons/plus.svg";

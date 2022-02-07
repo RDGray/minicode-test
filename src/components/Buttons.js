@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import arrowright from "../assets/icons/arrow-right.svg";
 import arrowleft from "../assets/icons/arrow-right.svg";
-import { Tab } from "@headlessui/react";
 
 import "./ButtonsStyle.css";
 
