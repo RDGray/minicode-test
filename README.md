@@ -13,7 +13,7 @@
 - Tabs
 
   - While clicking on tabs - the below information is changed
-  - The steps are changed in he nav bar
+  - The steps are changed in the nav bar
 
 - Side navbar
 
