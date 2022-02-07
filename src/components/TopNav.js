@@ -9,7 +9,7 @@ import NavLines from "./NavLines";
 
 const TopNav = () => {
   return (
-    <nav class="flex items-center nav">
+    <nav class="flex items-center nav fixed">
       <div class="left-side flex items-center">
         {/* Menu */}
         <img className="nav__hamburger" src={menu} alt="" />

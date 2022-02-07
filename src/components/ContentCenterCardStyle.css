@@ -1,0 +1,35 @@
+.content-center__card {
+  min-width: 11rem;
+  transition: all 0.2s ease-in-out;
+  min-height: 7.8125rem;
+}
+.content-center__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content-center__card--selected {
+  border: 1px solid;
+  color: #a40731;
+  font-weight: 700;
+}
+
+.content-center__icon {
+  margin-top: 0.9375rem;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.content-center__icon--selected {
+  margin-top: 0.9375rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  filter: invert(20%) sepia(99%) saturate(5336%) hue-rotate(336deg)
+    brightness(64%) contrast(103%);
+}
+
+.content-center__text {
+  color: #1b1918;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  padding: 0.4375rem 1.25rem 0.6875rem;
+}

@@ -3,6 +3,7 @@
   max-width: 6.25rem;
   border-right: 1px solid #e7e5e4;
   height: calc(100% - 99px);
+  top: 99px;
 }
 
 .aside__topnav {
@@ -45,4 +46,31 @@
   width: 1px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 766px) {
+  .aside {
+    min-width: 5.625rem;
+    max-width: 5.625rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .aside {
+    min-width: 4.625rem;
+    max-width: 4.625rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aside {
+    min-width: 3.925rem;
+    max-width: 3.925rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .contentLeft__icon {
+    width: 1.1875rem;
+    height: 1.1875rem;
+  }
 }

@@ -4,6 +4,7 @@
   width: 100vw;
   border-bottom: 1px solid #e7e5e4;
   background-color: #ffffff;
+  z-index: 10;
 }
 .nav__hamburger {
   cursor: pointer;
@@ -25,9 +26,6 @@
   height: 2rem;
   filter: invert(9%) sepia(95%) saturate(6240%) hue-rotate(339deg)
     brightness(78%) contrast(96%);
-}
-
-.center-side {
 }
 
 .left-side {

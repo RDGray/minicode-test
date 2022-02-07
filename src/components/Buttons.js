@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import arrowright from "../assets/icons/arrow-right.svg";
 import arrowleft from "../assets/icons/arrow-right.svg";
+import { Tab } from "@headlessui/react";
+
 import "./ButtonsStyle.css";
 
 export function ButtonBack({ name }) {
@@ -40,7 +42,7 @@ export const ButtonNav = ({ name }) => {
             cls === "btn--nav-clicked" ? "" : "btn--nav-clicked"
           )
         }
-        className={`btn btn--nav text-white py-2 px-4 border rounded`}
+        className="btn btn--nav text-white border rounded"
       >
         <p className={cls}>{name}</p>
       </button>

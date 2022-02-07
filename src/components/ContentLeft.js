@@ -8,19 +8,19 @@ import "./ContentLeftStyle.css";
 
 export function ContentLeft() {
   return (
-    <div class="aside px-1 absolute flex flex-col justify-around">
+    <div class="aside px-1 fixed flex flex-col justify-around ">
       <div class="flex flex-col justify-between content-between aside__topnav">
         <div
           class="flex flex-col items-center content-center justify-center aside__language"
           href="#!"
         >
           <img className="contentLeft__icon" src={lang} alt="" />
-          <div className="pt-3 text-sm">
-            <a className="mx-2 red-clr-800" href="#!">
+          <div className="pt-3 text-xs md:text-sm">
+            <a className="mx-1 md:mx-2 red-clr-800" href="#!">
               Pyc
             </a>
             <span className="line"></span>
-            <a className="mx-2" href="#!">
+            <a className="mx-1 md:mx-2" href="#!">
               Eng
             </a>
           </div>
@@ -31,7 +31,7 @@ export function ContentLeft() {
           href="#!"
         >
           <img className="contentLeft__icon" src={phone} alt="" />
-          <p className="text-sm pt-3">Sună</p>
+          <p className="text-xs md:text-sm pt-3">Sună</p>
         </a>
 
         <span className="line--vertical my-8"></span>
@@ -41,7 +41,7 @@ export function ContentLeft() {
           href="#!"
         >
           <img className="contentLeft__icon" src={mes} alt="" />
-          <p className="text-sm pt-3">Messenger</p>
+          <p className="text-xs md:text-sm pt-3 ">Messenger</p>
         </a>
       </div>
 
@@ -51,7 +51,7 @@ export function ContentLeft() {
           href="#!"
         >
           <img className="contentLeft__icon" src={whatsapp} alt="" />
-          <p className="text-sm pt-3">Whatsapp</p>
+          <p className="text-xs md:text-sm pt-3">Whatsapp</p>
         </a>
       </div>
     </div>

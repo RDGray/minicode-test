@@ -1,6 +1,7 @@
 import React from "react";
 import { ContentCenter } from "./components/ContentCenter";
 import { ContentLeft } from "./components/ContentLeft";
+import ContentRight from "./components/ContentRight";
 import TopNav from "./components/TopNav";
 // import { Button, ButtonIcon } from "./components/Buttons";
 
@@ -11,9 +12,10 @@ function App() {
 
       <ContentLeft />
 
-      <div className="container my-auto mx-auto flex content-center">
+      <div className="container mx-auto flex content-center">
         <ContentCenter />
       </div>
+      <ContentRight />
     </div>
   );
 }
